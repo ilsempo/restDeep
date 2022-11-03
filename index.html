@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS y js-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/><!-- fancybox -->
+
+        <title>Rest Deep</title>
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="css/mis-estilos.css">
+    <link rel="shortcut icon" href="img/art-nation-logo.png"><!-- Icono de la pagina -->
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-barra fixed-top">
+        <div class="container-sm">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="art-nation" width="32" height="auto"> Rest Deep </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#carouselDark">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explorar">galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#new">new</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news-letter">news letter</a>
+                    </li>
+                </ul><!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span> -->
+            </div>
+        </div>
+    </nav>
+    <!--carrusel (Hacer que la nav se desaparezca cuando aparezca desde inicio y aparezca cuando scrollees)-->
+        <div>
+        <img src="img/fondo-1.png" class=" w-100 img-fluid" alt="img-1" width="1920" height="1080">
+            <div class="carousel-caption text-center top-25">
+                <img src="img/logo-1.png" class="mt-5 img-fluid" alt="Logo" width="250" height="250">
+            </div>
+        </div>
+    <!-- <img src="img/fondo-1.png" class="img-fluid" alt="img-portada" alt="1920" height="1080">  -->
+    <!--
+    <div class="container">
+    <a href="https://www.instagram.com/" target="blank">
+        <img src="img/img-2.png" class=" w-100 img-fluid rounded-3" alt="boceto" width="300" height="300">
+    </a>
+    </div>
+    -->
+    <!--cards-->
+        <section id="explorar">
+            <!-- Se podria hacer un png de unas flores de fondo tipo fixed preguntar al profe -->
+            <!-- conteiner-fluid -->
+            <div class="py-5">
+                <article class="row">
+                    <h2 class="universos display-5 text-center ">Galeria</h2>
+                    <h3 class="text-white py-2 text-center">Explora por los diferentes canales de Rest</h3>
+                </article>
+                <div class="container">
+                <div class="row">
+                    <div class="col-3 ">
+                                <a href="https://www.instagram.com/" target="blank">
+                                    <img src="img/img-1.png" class="card-img img-fluid my-5" alt="img_1" width="300" height="auto">
+                                </a>
+                                <a href="https://www.instagram.com/" target="blank">
+                                    <img src="img/img-2.png" class="card-img img-fluid " alt="img_2" width="300" height="auto">
+                                </a>
+                    </div>
+                    <div class="col-3 ">
+                            <a href="https://www.instagram.com/" target="blank">
+                                <img src="img/img-3.png" class="card-img img-fluid " alt="img_3" width="auto" height="500">
+                            </a>
+                    </div>
+                    <div class="col-3 ">
+                            <a href="https://www.instagram.com/" target="blank">
+                                <img src="img/img-4.png" class="card-img img-fluid my-5" alt="img_4" width="300" height="auto">
+                            </a>
+                            <a href="https://www.instagram.com/" target="blank">
+                                <img src="img/img-5.png" class="card-img img-fluid " alt="img_5" width="300" height="auto">
+                            </a>
+                    </div>
+                    <div class="col-3 ">
+                        <a href="https://www.instagram.com/" target="blank">
+                            <img src="img/img-6.png" class="card-img img-fluid " alt="img_3" width="auto" height="500">
+                        </a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- Video -->
+        <section id="new">
+            <div class="container py-5">
+                <h1 class="text-center display-4"><span class="universos">New </span>Track</h1>
+                <h2 class="text-center text-white fs-4 mb-4 deep">Pasáte por youtube a escuchar el último tema que dropie</h2>
+                <div class="row">
+                </div>
+                <div class="ratio ratio-16x9 ">
+                    <iframe width="1904" height="768" src="https://www.youtube.com/embed/nCx8c53foBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- contacto -->
+        <div class="container mt-5" id="contacto">
+                <form action="" class="row">
+                    <div class="col-9 col-md-6 mx-auto">
+                        <h1 class="text-dark display-3 text-center text-white"><span class="universos">News </span>Letter</h1>
+                        <p class="text-center text-white fs-3">Accedé a mi contenido de news letter <span class="d-block">para poder adquirir videos de lirics y canciones que no saque aún</span></p>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                            <input type="email" class="form-control mt-1" id="e-mail" placeholder="completar con tu correo electronic" required><label for="consulta-mensaje" class="form-label fs-5 text-white"></label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light mt-2 mb-3">Enviar!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <!-- footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img class="bi" src="img/logo.png" alt="art-nation" width="30" height="auto">
+                    
+                </a>
+                <span class="text-muted">&copy; 2021 Company, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com" target="blank"><img id="icono" src="img/instagram.svg" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/?lang=es" target="blank"><img id="icono" src="img/twitter.svg" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com" target="blank"><img id="icono" src="img/facebook.svg" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.tiktok.com" target="blank"><img id="icono" src="img/tiktok.svg" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.twitch.com" target="blank"><img id="icono" src="img/twitch.svg" width="24" height="24"></a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Hostear la pagina -->
+
+    <!-- Program -->
+        <!-- Hacer una seccion comprar(nuevo) mostrar distintos cuadros los que se puedan ver medida a elegir y comprar -->
+        <!--realismo,personajes,paisajes,3d-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--fancybox-->
+    <!--<a data-fancybox="pepe" href(pepe va a juntar la galeria de imagenes en una sola href pones las imagenes mas grandes)-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+</body>
+</html>
